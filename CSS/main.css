@@ -1,0 +1,207 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Inria+Serif|Ma+Shan+Zheng|Open+Sans|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400|Source+Sans+Pro:200,300,400&display=swap');
+  a {
+    color: inherit;
+    text-decoration-line: none;
+  }
+
+  a:visited {
+    display: none;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    background-color: rgb(247, 211, 173);
+  }
+
+  /* background-color: rgb(245,235,220); Heavy Cream
+	background-color: rgb(233,223,213) Smokey Cream
+	background-color: rgb(249,232,211); Cafe Cream*/
+  /*background-color: rgb(252,243,221); Thickened White */
+  span {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  h2 h3 h4 h5 h6 {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  h1 {
+    font-family: "Ma Shan Zheng", cursive;
+    font-size: 4em;
+    font-weight: lighter;
+  }
+
+  h2 {
+    display: inline;
+    font-size: 2em;
+  }
+
+
+  h6 {
+    margin-top: 50px;
+    font-size: 1.2em;
+  }
+
+  p {
+    padding-bottom: 200px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  ul li:hover {
+    background-color: #f5f5f5;
+  }
+
+
+  figcaption {
+    font-style: italic;
+    font-size: smaller;
+    color: gray;
+  }
+
+
+  .post-link {
+    margin-left: 13.5em;
+    font-size: 1.3em;
+    display: inline-block;
+  }
+
+  .post-link:hover {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    text-decoration-line: underline;
+  }
+
+  .line-break {
+    border: solid black 1.5px;
+    margin-top: 15px;
+  }
+
+  .container {
+    background-color: rgb(247, 211, 173);
+    text-align: center;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .today-Post {
+    text-align: left;
+  }
+
+  .past-links {
+    font-size: 1.3em;
+    line-height: 3em;
+    margin-right: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .Bios {
+    font-size: 1.4em;
+    line-height: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    margin-left: -10px;
+  }
+
+  .img-bio {
+    margin-top: 15px;
+    width: 150px;
+    height: 130px;
+    border-radius: 95%;
+  }
+
+  .today-heading {
+    float: left;
+    padding-right: 2em;
+    margin-top: -.2em;
+  }
+
+  .today-content {
+    float: right;
+    position: absolute;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+  .fa-soccer-ball-o {
+    font-size: 75px;
+  }
+
+  #today-vid {
+    width: 600px;
+    height: 350px;
+    margin-bottom: 0;
+    line-height: 0;
+  }
+
+  #img-head {
+    width: 300px;
+    height: 300px;
+  }
+
+  a .navbar {
+    display: block;
+    text-align: right;
+    font-size: 2em;
+  }
+
+  a .navbar:hover {
+    color: #f5f5f5;
+    font-weight: bold;
+  }
+
+@media (min-width: 900px) {
+  #navbar {
+    display: inline-block;
+    float: right;
+    color: black;
+    font-size: 2em;
+  }
+
+  #Logo {
+    display: inline;
+    float: left;
+  }
+
+}
